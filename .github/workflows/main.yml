@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF }}
-        run: git push --force https://qandeelfatima:$HF@huggingface.co/spaces/qandeelfatima/ImageToTextModel main
+        run: git push --force git@hf.co:spaces/qandeelfatima/ImageToTextModel main
